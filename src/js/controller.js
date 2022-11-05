@@ -134,9 +134,7 @@ const controlRecipeUpload = async function (newRecipe) {
 }
 
 
-const newfeature = function () {
-  console.log('welcome to the application!');
-}
+
 
 const init = function () {
   bookMarkView.addHandlerRender(controlBookmark);
@@ -146,7 +144,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPaginationView);
   addRecipeView.addHandlerUpload(controlRecipeUpload);
-  newfeature();
+
 }
 init();
 //window.addEventListener('hashchange', showReceipe);
