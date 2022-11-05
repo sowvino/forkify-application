@@ -1,0 +1,21 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "receipe description",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "2.7.0"
+  },
+  "author": "sowmya",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.26.0",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.10"
+  }
+}
